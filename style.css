@@ -1,23 +1,23 @@
 /* Add a background color to page body */
 body {
-	background-color: rgb(48, 94, 58);
+	background-color: rgb(202, 232, 210);
 }
 
 /* Add a black background color to the menu bar */
 .bar {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(33, 102, 51);
     overflow: hidden;
 }
 
 /* Style the links inside the bar */
 .bar a {
     float: left;
-    color: white;
+    color: rgb(225, 252, 226);
     text-align: center;
     padding: 14px 15px;
     text-decoration: none;
     font-size: 15px;
-    font-family: "Cinzel";
+    font-family: "Monospace";
 }
 
 /* Change the color of links on hover */
@@ -45,12 +45,12 @@ body {
 }
 
 .header {
-	font-family: "Cinzel";
+	font-family: "Monospace";
 }
 
 .slogan {
 	text-align: right;
-	font-family: "Cinzel";
+	font-family: "Monospace";
 }
 
 #author {
@@ -58,12 +58,12 @@ body {
 }
 
 #img {
-	float: left;
+	float: center;
 }
 
 #slogan {
-	margin-left: 12em;
-	float: left;
+	margin-left: 20em;
+	float: center;
 }
 
 /* Separates paragraphs from picture and slogan */
@@ -72,20 +72,21 @@ body {
 }
 
 .paragraph, .table {
-	font-family: "Proza Libre";
+	font-family: "Monospace";
 }
 
-/* Removes the line under link */
+/* Removes the line under link 
 #link {
 	text-decoration: none;
 }
+*/
 
 h3 {
-	margin-left: 2em;
+	margin-left: 20em;
 }
 
 .table, #row, #th, #tdata, #tdatay {
-	border: .5px solid rgb(51, 51, 51);
+	border: .5px solid rgb(1, 38, 7);
 }
 
 #th, #tdata, #tdatay {
@@ -102,7 +103,7 @@ h3 {
 }
 
 #row:hover {
-	background-color: grey;
+	background-color: darkblue;
 	color: white;
 }
 
@@ -111,15 +112,15 @@ h3 {
 }
 
 footer {
-	background-color: rgb(51, 51, 51);
+	background-color: rgb(70, 133, 80);
 	width: 100%;
 	height: 320px
 }
 
 #contact_table {
-	float: left;
+	float: center;
 }
 
 #form {
-	float: left;
+	float: center;
 }
