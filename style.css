@@ -59,6 +59,8 @@ body {
 
 #img {
 	float: center;
+	width: "42";
+	height: "65"
 }
 
 #slogan {
